@@ -13,7 +13,6 @@ export const ModalError = styled.div<ModalProps>`
   top: 0;
   left: 0;
   z-index: 2000;
-  /* display: none; */
   display: ${(props) => (props.isOpen ? "flex" : "none")};
   justify-content: center;
   align-items: center;

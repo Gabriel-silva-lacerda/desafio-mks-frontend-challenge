@@ -13,9 +13,9 @@ export const Home = () => {
 
   return (
     <S.Container>
-      {error && <ModalError />}
       <ul>
         {isLoading && <SkeletonComponent />}
+        {(error && <ModalError />) as React.ReactNode}
         {data?.products.length &&
           data.products.map((product) => (
             <Products key={product.id} data={product} />
