@@ -3,6 +3,7 @@ import { Products } from "../../components/products";
 import { DataProducts } from "../../types/apiProducts";
 import { ModalError } from "../../components/modalError";
 import { SkeletonComponent } from "../../components/skeleton";
+import { ErrorProps } from "../../types/apiProducts";
 import * as S from "./styles";
 
 export const Home = () => {
@@ -15,7 +16,11 @@ export const Home = () => {
     <S.Container>
       <ul>
         {isLoading && <SkeletonComponent />}
-        {(error && <ModalError />) as React.ReactNode}
+        {
+          (error && (
+            <ModalError error={error as ErrorProps} />
+          )) as React.ReactNode
+        }
         {data?.products.length &&
           data.products.map((product) => (
             <Products key={product.id} data={product} />

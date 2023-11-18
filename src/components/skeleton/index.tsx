@@ -7,17 +7,16 @@ export const SkeletonComponent = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        padding: "0 ",
+        padding: "0 1.2rem",
         background: "#FFF",
         borderRadius: ".3rem",
-        maxWidth: "293px",
       }}
     >
       <Skeleton
         data-testid="skeleton"
         variant="rectangular"
         animation="wave"
-        width={260}
+        width="100%"
         height={240}
         style={{ marginTop: "1rem", borderRadius: ".3rem" }}
       />
@@ -26,13 +25,15 @@ export const SkeletonComponent = () => {
           display: "flex",
           gap: "60px",
           borderRadius: ".3rem",
+          width: "100%",
+          padding: "16px 0 16px 0"
         }}
       >
         <Skeleton
           data-testid="skeleton"
           variant="rectangular"
           animation="wave"
-          width={125}
+          width="80%"
           height={30}
           style={{ borderRadius: ".3rem" }}
         />
@@ -40,7 +41,7 @@ export const SkeletonComponent = () => {
           data-testid="skeleton"
           variant="rectangular"
           animation="wave"
-          width={75}
+          width="40%"
           height={30}
           style={{ borderRadius: ".3rem" }}
         />
@@ -49,7 +50,7 @@ export const SkeletonComponent = () => {
         data-testid="skeleton"
         variant="rectangular"
         animation="wave"
-        width={260}
+        width="100%"
         height={53}
         style={{ borderRadius: ".3rem" }}
       />
@@ -57,7 +58,7 @@ export const SkeletonComponent = () => {
         data-testid="skeleton"
         variant="rectangular"
         animation="wave"
-        width={260}
+        width="100%"
         height={39}
         style={{
           marginTop: ".7rem",

@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import * as S from "./styles";
+import { ErrorProps } from "../../types/apiProducts";
 
-export const ModalError = () => {
+export const ModalError = ({ error }: { error: ErrorProps }) => {
   const [isOpen, setIsOpen] = useState(true);
+
+  console.log(error);
 
   const closeModal = () => {
     setIsOpen(false);
@@ -17,7 +20,7 @@ export const ModalError = () => {
     >
       <div>
         <button onClick={closeModal}>X</button>
-        <h2>Erro ao realizar o fetch!</h2>
+        <h2>Error: {error.response.status}</h2>
       </div>
     </S.ModalError>
   );
