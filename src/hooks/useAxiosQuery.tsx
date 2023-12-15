@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useQuery } from "react-query";
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://json-server-cart.vercel.app",
 });
 
 const getData = async <T,>(url: string): Promise<T> => {
