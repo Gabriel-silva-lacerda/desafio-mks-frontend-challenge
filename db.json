@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "brand": "Apple",
+      "createdAt": "2023-10-30T16:25:01.093Z",
+      "description": "Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla.",
+      "id": 1,
+      "name": "Iphone 11 128 GB",
+      "photo": "https://m.media-amazon.com/images/I/41Zbbl4P+LL._AC_SX679_.jpg",
+      "price": "5000.00",
+      "updatedAt": "2023-10-30T16:25:01.093Z"
+    },
+    {
+      "brand": "Apple",
+      "createdAt": "2023-10-30T16:25:01.093Z",
+      "description": "Criados pela Apple Ligam e se conectam automaticamente Configuração com apenas um toque para todos seus aparelhos Apple.",
+      "id": 2,
+      "name": "AirPods",
+      "photo": "https://m.media-amazon.com/images/I/41JB0DKK0OL._AC_SX679_.jpg",
+      "price": "1200.00",
+      "updatedAt": "2023-10-30T16:25:01.093Z"
+    },
+    {
+      "brand": "Apple",
+      "createdAt": "2023-10-30T16:25:01.093Z",
+      "description": "Processador intel Core i5 de dois núcleos e 1,8 GHz (Turbo Boost de até 2,9 GHz) com cache L3 compartilhado de 3 MB.",
+      "id": 3,
+      "name": "Macbook Air",
+      "photo": "https://m.media-amazon.com/images/I/61w4HvjDL3L._AC_SX679_.jpg",
+      "price": "8200.00",
+      "updatedAt": "2023-10-30T16:25:01.093Z"
+    },
+    {
+      "brand": "Apple",
+      "createdAt": "2023-10-30T16:25:01.093Z",
+      "description": "Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla.",
+      "id": 4,
+      "name": "iPhone 12 64 GB",
+      "photo": "https://m.media-amazon.com/images/I/41rfDU6FGqL._AC_SX679_.jpg",
+      "price": "6500.00",
+      "updatedAt": "2023-10-30T16:25:01.093Z"
+    },
+    {
+      "brand": "Apple",
+      "createdAt": "2023-10-30T16:25:01.093Z",
+      "description": "O Apple Watch faz coisas que outros aparelhos não conseguem porque ele fica no seu pulso.",
+      "id": 5,
+      "name": "Apple Watch Series 7",
+      "photo": "https://m.media-amazon.com/images/I/51IxCp-f3tL._AC_SX679_.jpg",
+      "price": "3200.00",
+      "updatedAt": "2023-10-30T16:25:01.093Z"
+    },
+    {
+      "brand": "Apple",
+      "createdAt": "2023-10-30T16:25:01.093Z",
+      "description": "iPad é uma linha de tablets projetada, desenvolvida e comercializada pela Apple, que funciona com o sistema operacional móvel iOS e iPadOS.",
+      "id": 6,
+      "name": "iPad",
+      "photo": "https://m.media-amazon.com/images/I/41b-Re8YJUL._AC_SX679_.jpg",
+      "price": "4200.00",
+      "updatedAt": "2023-10-30T16:25:01.093Z"
+    },
+    {
+      "brand": "HyperX",
+      "createdAt": "2023-10-30T16:25:01.093Z",
+      "description": "A linha HyperX Cloud Revolver foi projetada para atender as exigências dos gamers de PC ou de console.",
+      "id": 7,
+      "name": "Headset Cloud Revolver",
+      "photo": "https://m.media-amazon.com/images/I/611h+WB-EyL._AC_SX679_.jpg",
+      "price": "1000.00",
+      "updatedAt": "2023-10-30T16:25:01.093Z"
+    },
+    {
+      "brand": "HyperX",
+      "createdAt": "2023-10-30T16:25:01.093Z",
+      "description": "O HyperX Cloud Stinger™ é o headset ideal para jogadores que procuram leveza e conforto, qualidade de som superior e maior praticidade.",
+      "id": 8,
+      "name": "Headset Cloud Stinger",
+      "photo": "https://m.media-amazon.com/images/I/61hrqB9N-2L._AC_SX679_.jpg",
+      "price": "600.00",
+      "updatedAt": "2023-10-30T16:25:01.093Z"
+    }
+  ]
+}

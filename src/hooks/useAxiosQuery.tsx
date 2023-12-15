@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useQuery } from "react-query";
 const axiosInstance = axios.create({
-  baseURL: "https://mks-frontend-challenge-04811e8151e6.herokuapp.com/api/v1/",
+  baseURL: "http://localhost:3000",
 });
 
 const getData = async <T,>(url: string): Promise<T> => {

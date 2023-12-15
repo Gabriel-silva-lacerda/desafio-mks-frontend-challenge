@@ -1,15 +1,15 @@
 import { useAxiosQueryGet } from "../../hooks/useAxiosQuery";
 import { Products } from "../../components/products";
-import { DataProducts } from "../../types/apiProducts";
+import { ProductsData } from "../../types/apiProducts";
 import { ModalError } from "../../components/modalError";
 import { SkeletonComponent } from "../../components/skeleton";
 import { ErrorProps } from "../../types/apiProducts";
 import * as S from "./styles";
 
 export const Home = () => {
-  const { data, isLoading, error } = useAxiosQueryGet<DataProducts>(
+  const { data, isLoading, error } = useAxiosQueryGet<ProductsData[]>(
     "products",
-    "products?page=1&rows=8&sortBy=id&orderBy=ASC"
+    "/products"
   );
 
   return (
@@ -21,10 +21,8 @@ export const Home = () => {
             <ModalError error={error as ErrorProps} />
           )) as React.ReactNode
         }
-        {data?.products.length &&
-          data.products.map((product) => (
-            <Products key={product.id} data={product} />
-          ))}
+        {data?.length &&
+          data.map((product) => <Products key={product.id} data={product} />)}
       </ul>
     </S.Container>
   );

@@ -9,11 +9,6 @@ export type ProductsData = {
   updatedAt: string;
 };
 
-export type DataProducts = {
-  count: number;
-  products: ProductsData[];
-};
-
 export type ErrorProps = {
   response: {
     status: number;
